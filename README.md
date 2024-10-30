@@ -1,5 +1,5 @@
 # ZAPATILLAS HAT TRICK
-#RRGGBB
+
 
 ## Conocimientos Previos
 Zapatillas Hat Trick es un software de tipo ecommerce dedicado al comercio de zapatillas deportivas, ofreciendo una amplia variadad de calzado asegurando a los clientes la maxima calidad de sus productos.
