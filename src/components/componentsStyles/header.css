@@ -1,13 +1,40 @@
-li{
-    list-style-type: none;
+header{
+    
+}
+
+
+ul{
+    
     margin: 0;
     padding: 0;
     display: flex;
+    justify-content:space-between;
+    width: 100%;
+}
+li{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+   
+}
+li>li{
+    padding: 1em;
+
 }
 
 nav{
     
+    
     margin: 0;
-    padding: 10px;
+    
 }
 
+.iconologo{
+    width: 70px;
+    margin: 0;
+    padding: 0;
+}
+.cart, .sesion{
+width: 25px;
+height: 25px;
+}
