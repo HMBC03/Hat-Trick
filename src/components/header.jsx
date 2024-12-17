@@ -5,7 +5,7 @@ import cart from "../assets/cart.png"
 import sesion from "../assets/sesion.png"
 import "./componentsStyles/header.css"
 
-//Components
+//sub Components
 import SearchButton from "./search";
 
 
@@ -22,10 +22,10 @@ export default function Header() {
                             <h1>Hat trick</h1>
                     </li>
                     <li>
-                        <p>Personalización</p>
+                       <a href=""><p>Personalización</p></a> 
                     </li>
                     <li>
-                        <p>Nuevos Modelos</p>
+                        <a href=""><p>Nuevos Modelos</p></a>
                     </li>
 
                     

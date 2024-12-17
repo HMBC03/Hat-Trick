@@ -5,12 +5,14 @@ import "./componentsStyles/search.css"
 export default function SearchButton(){
 
     return(
+        
+        <div >
 
-        <div className="searchIcon">
-        <img src={searchIcon} 
-        alt="search" />
-        <p>Buscar</p>
+        <input type="text" className="Icon" placeholder="Buscar" />
+
+        
         </div>
+        
 
     )
 }

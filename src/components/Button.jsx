@@ -1,13 +1,11 @@
-export default function Button() {
+import "./componentsStyles/Button.css"
+import React from "react"
+export default function Button({text,style}){
+    
     return (
 
-        <button>
-            
+        <button style={style} >
+            {text}
         </button>
-
-)
-
-
-
-
+);
 }
