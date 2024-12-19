@@ -1,44 +1,55 @@
-header{
-    
+header {
+    position: sticky;
+    top: 0;
+    background-color: #FBFBFF;
+    z-index: 6;
+
 }
 
 
-ul{
-    
+
+
+ul {
+
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     width: 100%;
 }
-li{
+
+li {
     display: flex;
-    justify-content:space-around;
-    align-items:center;
-   
+    justify-content: space-around;
+    align-items: center;
+
 }
-li>li{
+
+li>li {
     padding: 1em;
 
 }
 
-nav{
-    
-    
+nav {
+
+
     margin: 0;
-    
+
 }
 
-.iconologo{
+.iconologo {
     width: 70px;
     margin: 0;
     padding: 0;
 }
-.cart, .sesion{
-width: 25px;
-height: 25px;
+
+.cart,
+.sesion {
+    width: 25px;
+    height: 25px;
 }
-a{
+
+a {
     text-decoration: none;
     color: black;
 }
