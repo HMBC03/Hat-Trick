@@ -52,8 +52,10 @@ export default function Inicio() {
                     <h1>Elige la que se adapte a ti</h1>
                     <p>Personaliza tus zapatillas elige colores, detalles y acabados que reflejen tu futbol y personalidad</p>
                     {/**SLIDER WIHT SWIPER "INSTALL SWIPER IS MANDATORY" */}
-
+                        <div className="sliderContainer">
                         <Slider />
+                        </div>
+                        
 
 
 
@@ -66,6 +68,7 @@ export default function Inicio() {
                 <section className="ContactUs">
                         <h2>Contáctanos</h2>
                         <p>zapatillas@gmail.com</p>
+                        <p>+57 3196164030</p>
                 </section>
                 <section className="Politics">
                         <h2>Políticas</h2>
@@ -81,16 +84,23 @@ export default function Inicio() {
                     <Button
                     text="Enviar"
                     style={{
-                        backgroundColor: "#fff",
-                        color: "#5759E5",
-                        borderColor: "#5759E5"
+                        backgroundColor: "#5759e573",
+                        color: "#fff",
+                        borderColor: "#fff",
+                        width: "40%",
+                        borderRadius: "6px"
+                        
+
 
                     }}
                     />
 
                 </section>
-                </div>
                 
+                </div>
+                <div className="creditos">
+                    <p>2024 Zapatillas Hat Trick todos los derechos reservados. Desarrollado por: Héctor Beltran</p>
+                </div>
 
             </div>
 
