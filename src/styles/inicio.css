@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap');
-.SeccionInitial{
+.SectionInitial{
     display: flex;
     width: 100%;
     
@@ -19,10 +19,11 @@
 }
 
 .ShoeInformation>h2{
-    color: #0C72F7  ;
+    color: #5759E5  ;
     font-size: 3.8em;
     margin: 0;
     padding: 0;
+    font-size: 4.5em;
 }
 .ShoeInformation>p{
     margin-top: 5%;
@@ -44,4 +45,14 @@
 
 .ImageInformation>img{
     width: 100%;
+}
+
+
+
+.soleSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+        padding: 2%;
+    
 }
