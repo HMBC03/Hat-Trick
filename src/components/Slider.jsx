@@ -55,33 +55,56 @@ export default function Slider() {
             >
 
                 <SwiperSlide className='SwiperSlide'>
+                    <div>
+                        <h1>Goma</h1>
 
-                    <h1>Goma</h1>
-                    <img src={sole1} alt="" />
 
+                        <div>
+                            <img src={sole1} alt="" />
+                        </div>
+                    </div>
+                    <p>Ideal para superficies lisas como baldosas.
+                    </p>
+
+
+
+                </SwiperSlide>
+                <SwiperSlide className='SwiperSlide'>
+                    <div>
+                        <h1>Negra</h1>
+
+
+                        <div>
+                            <img src={sole2} alt="" />
+                        </div>
+                    </div>
+                    <p>Perfecta para largos partidos sobre asfalto y cemento, asi como la suela de colores.</p>
 
 
 
                 </SwiperSlide>
                 <SwiperSlide className='SwiperSlide'>
 
-                    <h1>Negra</h1>
-                    <img src={sole2} alt="" />
+                    <div>
+                        <h1>Colores</h1>
 
-
-
-                </SwiperSlide>
-                <SwiperSlide className='SwiperSlide'>
-
-                    <h1>Colores</h1>
-                    <img src={sole1} alt="" />
-
+                        <div>
+                            <img src={sole3} alt="" />
+                        </div>
+                    </div>
+                    <p>Pensada para superficies duras como cemento o asfalto, </p>
 
                 </SwiperSlide>
                 <SwiperSlide className='SwiperSlide'>
+                    <div>
 
-                    <h1>Torretin</h1>
-                    <img src={sole1} alt="" />
+
+                        <h1>Torretin</h1>
+                        <div>
+                            <img src={sole4} alt="" />
+                        </div>
+                    </div>
+                    <p>Diseñada para grama y césped sintético, asegura una tracción óptima y estabilidad.</p>
 
                 </SwiperSlide>
             </Swiper>

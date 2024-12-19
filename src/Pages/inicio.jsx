@@ -54,8 +54,48 @@ export default function Inicio() {
                     {/**SLIDER WIHT SWIPER "INSTALL SWIPER IS MANDATORY" */}
 
                         <Slider />
+
+
+
+
                 </section>
             </div>
+
+            <div className="bannerSection">
+                <div className="container">
+                <section className="ContactUs">
+                        <h2>Contáctanos</h2>
+                        <p>zapatillas@gmail.com</p>
+                </section>
+                <section className="Politics">
+                        <h2>Políticas</h2>
+                        <a href=""><p>Política Envíos</p></a>
+                        <a href=""><p>Política Cambios y Devoluciones</p></a>
+                        <a href=""><p>Política de Uso de Cookies</p></a>
+                        <a href=""><p>Política de Privacidad</p></a>
+                        <a href=""><p>Términos y Condiciones</p></a>
+                </section>
+                <section className="Suscription">
+                    <h2>Suscribirse</h2>
+                    <input type="email" name="email" id="email" placeholder="Correo Electronico"/>
+                    <Button
+                    text="Enviar"
+                    style={{
+                        backgroundColor: "#fff",
+                        color: "#5759E5",
+                        borderColor: "#5759E5"
+
+                    }}
+                    />
+
+                </section>
+                </div>
+                
+
+            </div>
+
+
+
         </div>
     )
 }

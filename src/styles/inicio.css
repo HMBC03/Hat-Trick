@@ -1,33 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap');
-.SectionInitial{
+
+.SectionInitial {
     display: flex;
     width: 100%;
-    
-    
-    
+
+
+
 }
-.ShoeInformation{
+
+.ShoeInformation {
     width: 50%;
     margin: 10px;
     padding: 50px 0 0 20px;
 }
-.ShoeInformation>h1{
-    
+
+.ShoeInformation>h1 {
+
     font-size: 5.2em;
     padding: 0;
     margin: 0;
 }
 
-.ShoeInformation>h2{
-    color: #5759E5  ;
+.ShoeInformation>h2 {
+    color: #5759E5;
     font-size: 3.8em;
     margin: 0;
     padding: 0;
     font-size: 4.5em;
 }
-.ShoeInformation>p{
+
+.ShoeInformation>p {
     margin-top: 5%;
-    color:#3F3F3F;  
+    color: #3F3F3F;
     font-family: Alexandria, serif;
     font-weight: 350;
     letter-spacing: 1px;
@@ -35,7 +39,7 @@
 
 
 
-.ImageInformation{
+.ImageInformation {
     height: 100vh;
     background-image: url(../assets/logobackground.png);
     background-size: 90%;
@@ -43,16 +47,62 @@
     background-position: calc(100% - 30px) calc(100% - 1px);
 }
 
-.ImageInformation>img{
+.ImageInformation>img {
     width: 100%;
 }
 
 
 
-.soleSection{
+.soleSection {
     display: flex;
+    text-align: center;
     flex-direction: column;
     justify-content: center;
-        padding: 2%;
+    padding: 2%;
+
+}
+
+.soleSection>section>h1 {
+    font-size: 2.6em;
+}
+
+.soleSection>section>p {
+    font-size: 1.2em;
+}
+
+.bannerSection{
+    color: #fff;
+    height: 80vh;
     
+    
+    background-image: url(../assets/bannerBg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.bannerSection>.container{
+    display: flex;
+    color: #fff;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.397);
+    width: 100%;
+    height: 100%;
+
+}
+.bannerSection>.container>.Politics>a {
+    color: #fff;
+}
+
+.bannerSection>.container>.Suscription{
+    
+    justify-content: center;
+    
+}
+.bannerSection>.container>.Suscription>input{
+    background-color: #ffffff98;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    font-size: 1em;
 }

@@ -1,9 +1,30 @@
 .SwiperSlide{
-    height: 50vh!important;
-    border: 1px solid black !important;
+    justify-content: center!important;
+    text-align: center!important;
+    padding: 10px;
+    height: 70vh!important;
+   
     border-radius: 10px!important;
     background-color: #fff!important;
     margin: 1em!important;
     
     
+}
+.SwiperSlide>div{
+    height: 80%;
+    border: 1px solid black !important; 
+    border-radius: 10px;
+}
+.SwiperSlide>div>div>img{
+    width: 70%;
+}
+.SwiperSlide:hover{
+    cursor: pointer !important;
+    
+    
+}
+.SwiperSlide>div:hover{
+    background-color: #5759E5;
+    transition: background-color 0.8s ease;
+    color:#fff
 }
