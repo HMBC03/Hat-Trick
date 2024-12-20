@@ -2,13 +2,19 @@ import "../styles/inicio.css"
 import shoe from "../assets/shoe.png"
 import Button from "../components/Button.jsx"
 import Slider from "../components/Slider.jsx"
-
+import Card from "../components/Card.jsx"
+import Encabezado from "../components/header.jsx"
+//Import images form store preview
+import shoe1 from "../assets/shoe1.png"
+import shoe2 from "../assets/shoe2.png"
+import shoe3 from "../assets/shoe3.png"
 export default function Inicio() {
 
     return (
 
         //Principal content of the Inicio section includues the principal page, shoe section and banner section
         <div >
+            <Encabezado/>
             {/**Initial section */}
             <div className="SectionInitial">
                 <section className="ShoeInformation">
@@ -46,7 +52,7 @@ export default function Inicio() {
                 </section>
 
             </div>
-                    {/**Sole Section Medium */}
+            {/**Sole Section Medium */}
             <div className="soleSection">
                 <section className="">
                     <h1>Elige la que se adapte a ti</h1>
@@ -62,7 +68,7 @@ export default function Inicio() {
                             backgroundColor: "#5759E5",
                             color: "#FFFFFF",
                             border: "none",
-                            width:"15%",
+                            width: "15%",
                             height: "8vh"
 
                         }}
@@ -71,6 +77,45 @@ export default function Inicio() {
 
 
                 </section>
+            </div>
+
+            <div className="storePrev">
+                <h1>Nuevos modelos </h1>
+                <div className="cardsPrev">
+                    <Card
+                        style={
+                            { backgroundColor: "#96CAEF" }
+                        }
+                        name="Zapatilla 1"
+                        url={shoe1}
+                        price="$100.000"
+                    />
+                    <Card
+                        style={
+                            { backgroundColor: "#FFBAD0" }
+                        }
+                        name="Zapatilla 2"
+                        url={shoe2}
+                        price="$100.000"
+                    />
+                    <Card
+                        style={
+                            { backgroundColor: "#EF9698" }
+                        }
+                        name="Zapatilla 3"
+                        url={shoe3}
+                        price="$190.000"
+                    />
+                    <Card
+                        style={
+                            { backgroundColor: "#EF9698" }
+                        }
+                        name="Zapatilla 3"
+                        url={shoe3}
+                        price="$190.000"
+                    />
+                </div>
+
             </div>
 
 

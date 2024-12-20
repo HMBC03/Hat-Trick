@@ -1,4 +1,5 @@
 
+import { Link } from "react-router-dom";
 //assets - iconos - media
 import iconoLogo from "../assets/logo.png";
 import cart from "../assets/cart.png"
@@ -25,7 +26,7 @@ export default function Header() {
                        <a href=""><p>Personalización</p></a> 
                     </li>
                     <li>
-                        <a href=""><p>Nuevos Modelos</p></a>
+                    <Link to="/Store">Nuevos Modelos</Link>
                     </li>
 
                     

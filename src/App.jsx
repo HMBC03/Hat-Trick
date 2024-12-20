@@ -1,21 +1,21 @@
 import React from 'react'
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './styles/App.css'
-import Encabezado from "./components/header"
-import Inicio from "./Pages/inicio.jsx"
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+//Pages
+import Inicio from "./Pages/inicio.jsx";
+import Store from "./Pages/store.jsx"
+
 function App() {
-
-
   return (
-    <>
-     <Encabezado/>
-     <Inicio/> 
     
-    </>
-    
-  )
+      <Router>
+        <Routes>
+          <Route path="/" element={<Inicio />} />
+          <Route path="/Store" element={<Store />} />
+        </Routes>
+      </Router>
+
+  );
 }
 
 export default App

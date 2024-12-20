@@ -40,15 +40,18 @@
 
 
 .ImageInformation {
+    align-items: right;
+    text-align: right;
     height: 100vh;
     background-image: url(../assets/logobackground.png);
-    background-size: 90%;
+    background-size: 85%;
     background-repeat: no-repeat;
-    background-position: calc(100% - 30px) calc(100% - 1px);
+    background-position: center bottom;
 }
 
 .ImageInformation>img {
-    width: 100%;
+    width: 94%;
+    align-self: right;
 }
 
 
@@ -69,6 +72,16 @@
 .soleSection>section>p {
     font-size: 1.2em;
 }
+/*Small store Initial page*/
+.storePrev{
+    padding: 3%;
+}
+.cardsPrev{
+    display: flex;
+    justify-content: space-around;
+}
+
+
 
 .bannerSection{
     color: #fff;

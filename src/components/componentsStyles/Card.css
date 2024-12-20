@@ -1,0 +1,27 @@
+.cardContainer{
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 10px;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 2%;
+    
+}
+
+.cardContainer>.imgContainer{
+    min-height: 68%;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    justify-content: center;
+}
+.cardContainer>.imgContainer>img{
+    
+    width: 95%;
+}
+
+.infoCard{
+    display: flex; 
+    justify-content:space-between;   
+    align-items:last baseline;
+    padding: 7px
+}
