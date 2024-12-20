@@ -1,0 +1,24 @@
+.store{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+.infoSote{
+    text-align: left;
+    align-items: left;
+}
+.shoesList{
+    max-width: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-around;
+    
+}
+.shoesList>.cardContainer {
+    max-width: 20%;
+    box-sizing:content-box;
+
+    
+}
