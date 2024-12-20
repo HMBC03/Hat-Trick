@@ -4,7 +4,7 @@ import Button from "../components/Button.jsx"
 import Slider from "../components/Slider.jsx"
 import Card from "../components/Card.jsx"
 import Encabezado from "../components/header.jsx"
-//Import images form store preview
+//Import images form store preview // IMPORTANT: Create a function that will this operation dinamic
 import shoe1 from "../assets/shoe1.png"
 import shoe2 from "../assets/shoe2.png"
 import shoe3 from "../assets/shoe3.png"
