@@ -3,7 +3,7 @@ import shoe from "../assets/shoe.png"
 import Button from "../components/Button.jsx"
 import Slider from "../components/Slider.jsx"
 import Card from "../components/Card.jsx"
-import Encabezado from "../components/header.jsx"
+import Encabezado from "../components/Header.jsx"
 //Import images form store preview // IMPORTANT: Create a function that will this operation dinamic
 import shoe1 from "../assets/shoe1.png"
 import shoe2 from "../assets/shoe2.png"
