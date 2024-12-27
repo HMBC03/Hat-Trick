@@ -1,0 +1,53 @@
+
+
+.cardPopup{
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    backdrop-filter: blur(3px);
+}
+.cardPopupContainer{
+
+    background-color: #fff;
+    border: 1px solid #000;
+    width: 35%;
+    height: 70%;
+    border-radius: 10px;
+
+}
+
+
+.cardPopupContainer>.imgContainer{
+    width: 100%;
+    height: 60%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    
+
+}
+.cardPopupContainer>.imgContainer>img{
+    background-repeat: no-repeat;
+    background-size:contain;
+    width: 90%;
+    margin-top: 10%;
+}
+
+
+
+
+
+
+.cardPopupContainer>.infoCard{
+    display: flex;
+    flex-direction: row;
+}

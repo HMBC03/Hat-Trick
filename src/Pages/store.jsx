@@ -13,6 +13,14 @@ export default function Store() {
     return (
         <>
             <Header />
+            <CardPopup
+               
+                url={shoe1}
+                style={{
+                    backgroundColor: "#96CAEF",
+                    borderRadius: "inherit"
+                }}
+            />
             <div className='store'>
 
 
