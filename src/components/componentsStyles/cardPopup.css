@@ -1,53 +1,44 @@
 
 
-.cardPopup{
-    width: 100%;
-    height: 100%;
-    z-index: 1000;
-    position: fixed;
-    top: 0;
-    left: 0;
+.card-popup {
     display: flex;
     justify-content: center;
-    align-items:center;
-    backdrop-filter: blur(3px);
-}
-.cardPopupContainer{
+    width: 100vw;
+    height: 100vh;
 
+}
+.store{
+    filter: blur(10px);
+}
+.cardPopupContainer {
+    z-index: 10;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     background-color: #fff;
-    border: 1px solid #000;
-    width: 35%;
-    height: 70%;
+    box-shadow: 1px 1px 60px 15px #0000007e;
     border-radius: 10px;
+    max-width: 30%;
+    max-height: 80%;
+    margin: 2%;
 
 }
 
-
-.cardPopupContainer>.imgContainer{
-    width: 100%;
-    height: 60%;
-    margin: 0;
-    padding: 0;
+.cardPopupContainer>.imgContainer {
+    min-height: 68%;
+    border-radius: 10px 10px 0 0;
     display: flex;
-    flex-direction: column;
-    justify-content:center;
-    align-items: center;
-    
-
-}
-.cardPopupContainer>.imgContainer>img{
-    background-repeat: no-repeat;
-    background-size:contain;
-    width: 90%;
-    margin-top: 10%;
+    justify-content: center;
 }
 
+.cardPopupContainer>.imgContainer>img {
+    width: 95%;
+}
 
-
-
-
-
-.cardPopupContainer>.infoCard{
+.infoCard {
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    align-items: last baseline;
+    padding: 7px
 }
