@@ -1,7 +1,7 @@
 import './componentsStyles/Card.css'
 import Button from './Button.jsx'
 
-export default function Card({ name, url, price, style }) {
+export default function Card({ name, url, price, style, onClick }) {
     return (
         <div className='cardContainer'>
             <section className='imgContainer' style={style}>
@@ -31,6 +31,7 @@ export default function Card({ name, url, price, style }) {
                     borderColor: "#5759E5"}
     
                 }
+                onClick={onClick}
                 
                 />
                 </section>

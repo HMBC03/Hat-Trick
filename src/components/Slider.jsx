@@ -6,6 +6,7 @@ import sole1 from '../assets/Sole1.png';
 import sole2 from '../assets/Sole2.png';
 import sole3 from '../assets/Sole3.png';
 import sole4 from '../assets/Sole4.png';
+import arrowIcon from '../assets/arrowRight.png';
 // Import Swiper React components
 import { Navigation } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -21,8 +22,14 @@ export default function Slider() {
         <>
             <Button
 
-                text="<"
+                text=""
                 style={{
+                    backgroundImage: `url(${arrowIcon})`,
+                    backgroundRepeat: "no-repeat",
+                    backgroundPosition: "center",
+                    transform: "rotate(180deg)",
+                    border: "2px solid black",
+                    backgroundSize: "20px 20px",
                     marginTop: "5%",
                     borderRadius: "30px",
                     width: "6%",
@@ -34,8 +41,13 @@ export default function Slider() {
             />
             <Button
 
-                text=">"
+                text=""
                 style={{
+                    backgroundImage: `url(${arrowIcon})`,
+                    backgroundRepeat: "no-repeat",
+                    backgroundPosition: "center",
+                    backgroundSize: "20px 20px",
+                    border: "2px solid black",
                     marginTop: "5%",
                     marginLeft: "1%",
                     borderRadius: "30px",

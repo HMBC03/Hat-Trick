@@ -11,34 +11,103 @@
     filter: blur(10px);
 }
 .cardPopupContainer {
+    display: none;
     z-index: 10;
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #fff;
-    box-shadow: 1px 1px 60px 15px #0000007e;
+    box-shadow: 1px 1px 60px 15px #00000059;
     border-radius: 10px;
-    max-width: 30%;
+    max-width: 50%;
     max-height: 80%;
     margin: 2%;
-
+    transition: filter 0.7s ease-in-out;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.visible
+{
+    display: flex;
+    transition: filter 0.7s ease-in-out;
 }
 
 .cardPopupContainer>.imgContainer {
-    min-height: 68%;
+    max-width: 80%;
+    align-items: center;
     border-radius: 10px 10px 0 0;
     display: flex;
     justify-content: center;
+    overflow: hidden;
 }
 
 .cardPopupContainer>.imgContainer>img {
-    width: 95%;
+    width: 120%;
 }
 
-.infoCard {
+.infoProduct {
+    width: 100%;
+    justify-content: space-between;
+    
+       
+    
+}
+
+
+.productName{
+    padding: 0 10px;
     display: flex;
     justify-content: space-between;
-    align-items: last baseline;
-    padding: 7px
+    
+    
 }
+
+.sizes {
+    margin: 16px 0;
+  }
+  
+  .sizes label {
+    padding: 0 10px;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .size-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+  }
+  
+  .size {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid #5759E5;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .size:hover {
+    background-color: #5759E5;
+    color: #fff;
+    
+  }
+  
+  .size.selected {
+    background-color: #5759E5;
+    color: white;
+    border-color: #5759E5;
+  }
+  .ButtonsSection{
+    padding: 0 10px 10px;
+    display: flex;
+    justify-content: space-between;
+  }

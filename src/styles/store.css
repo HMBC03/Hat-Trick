@@ -1,16 +1,18 @@
 
-.store{
+.store-container{
     
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
-}
-.storeblur{
-    filter: blur(10px);
+    transition: filter 0.3s ease;
 }
 
+.blurred {
+    filter: blur(5px);
+    transition: filter 0.3s ease-in-out;
+  }
+  
 
 .infoStore{
     width: 90vw;

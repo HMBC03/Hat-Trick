@@ -20,7 +20,7 @@ export default function Header() {
                         <img className="iconologo"
                             src={iconoLogo}
                             alt="Logo" />
-                            <h1>Hat trick</h1>
+                            <Link to="/">Hat trick</Link>
                     </li>
                     <li>
                        <a href=""><p>Personalización</p></a> 
