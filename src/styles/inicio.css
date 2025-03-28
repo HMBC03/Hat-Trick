@@ -75,10 +75,24 @@
 /*Small store Initial page*/
 .storePrev{
     padding: 3%;
+    
 }
+
+
+
+
 .cardsPrev{
-    display: flex;
+    width: 90vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 1px; 
+    
     justify-content: space-around;
+    box-sizing:content-box;
+}
+
+.cardsPrev>.cardContainer{
+    box-sizing:content-box;
 }
 
 
@@ -142,4 +156,27 @@
 
     margin: 0;
     
+}
+
+
+
+
+/*Statign with the medias querys*/
+
+@media(max-width:1200px){
+    /* Smaller screens */
+   
+
+    .ImageInformation {
+        align-items: right;
+        text-align: right;
+        height: 100vh;
+        background-image: url(../assets/logobackground.png);
+        background-size: 85%;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+
+
 }

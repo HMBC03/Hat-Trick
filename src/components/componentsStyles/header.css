@@ -1,55 +1,124 @@
-header {
-    position: sticky;
-    top: 0;
-    background-color: #FBFBFF;
-    z-index: 6;
 
-}
+    header {
+        position: sticky;
+        top: 0;
+        background-color: #FBFBFF;
+        z-index: 6;
+    }    
+    
+    ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+    li {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        }
+    
+    li>li {
+        padding:1em;
+    
+    }
+    a:hover{
+        color: #5759E5;
+        transition: color 0.3s ease;
+        
+    }
+    
+    nav {
+        margin: 0;
+    
+    }
+    
+    .iconologo {
+        width: 130px;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .cart,
+    .sesion {
+        width: 25px;
+        height: 25px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: black;
+        font-size: 1.6em;
+        transition: color 0.3s ease;
+    }
 
 
 
 
-ul {
-
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
-
-li {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
-}
-
-li>li {
-    padding: 1em;
-
-}
-
-nav {
 
 
-    margin: 0;
 
-}
 
-.iconologo {
-    width: 70px;
-    margin: 0;
-    padding: 0;
-}
 
-.cart,
-.sesion {
-    width: 25px;
-    height: 25px;
-}
 
-a {
-    text-decoration: none;
-    color: black;
+
+@media(max-width:1370px) {
+    
+    header {
+        position: sticky;
+        top: 0;
+        background-color: #FBFBFF;
+        z-index: 6;
+    
+    }    
+    
+    ul {
+    
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+    li {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    
+    }
+    
+    li>li {
+        padding: 1em;
+    
+    }
+    
+    nav {
+    
+    
+        margin: 0;
+    
+    }
+    
+    .iconologo {
+        width: 70px;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .cart,
+    .sesion {
+        width: 25px;
+        height: 25px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+
+
 }

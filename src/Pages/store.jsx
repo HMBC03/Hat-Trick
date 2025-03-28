@@ -2,12 +2,13 @@
 import Card from '../components/Card.jsx';
 import Header from '../components/Header.jsx';
 import CardPopup from '../components/CardPopup.jsx';
+
 //Import styles
 import '../styles/store.css';
 
 //Import react functionality
+import React, { useState, useEffect } from 'react';
 
-import React, { useState } from 'react';
 
 //Import images form store preview // IMPORTANT: Create a function that will this operation dinamic
 import shoe1 from "../assets/shoe1.png"
@@ -19,13 +20,36 @@ export default function Store() {
     const [blur, setBlur] = useState(false);
     const [visible, setVisible] = useState(false);
     //Here we create the functions
+    
     const toggleBlur = ()=> {
         setBlur(!blur);
         setVisible(!visible);
-        console.log(blur);
+        
     };
 
+// useEffect to handle clicks outside the modal
+useEffect(() => {
+    const handleClickOutside = (event) => {
+        const popup = document.getElementById("popup-container");
 
+        // Check if click is outside the popup
+        if (popup && !popup.contains(event.target)) {
+            setVisible(false);
+            setBlur(false);
+        }
+    };
+
+    if (visible) {
+        document.addEventListener('mousedown', handleClickOutside);
+    } else {
+        document.removeEventListener('mousedown', handleClickOutside);
+    }
+
+    // Cleanup event listener on component unmount
+    return () => {
+        document.removeEventListener('mousedown', handleClickOutside);
+    };
+}, [visible]);
 
 
 
@@ -33,14 +57,14 @@ export default function Store() {
         <>
             <Header />
             
-            <CardPopup
-            url={shoe1}
-            style={
-                {
-                }
-            }
-            visible={visible}
-            /> 
+            {visible && (
+                <div id="popup-container">
+                    <CardPopup 
+                        url={shoe1}
+                        visible={visible}
+                    />
+                </div>
+            )}
             
             
             

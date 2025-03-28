@@ -28,12 +28,56 @@
     
     width: 90vw;
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
-    gap: 10px; 
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    gap: 20px; 
     
 }
 .shoesList>.cardContainer {
     box-sizing:content-box;
 
+    
+}
+
+
+@media (max-width: 1380px) {
+    
+.store-container{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: filter 0.3s ease;
+}
+
+.blurred {
+    filter: blur(5px);
+    transition: filter 0.3s ease-in-out;
+  }
+  
+
+.infoStore{
+    width: 90vw;
+    text-align:left;
+}
+.infoStore>h1{
+    font-size: 2em;
+    font-weight:500;
+    padding: 0;
+    margin-bottom: 3%;
+}
+.shoesList{
+    
+    width: 90vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(260px,1fr));
+    gap: 20px; 
+    
+}
+.shoesList>.cardContainer {
+    box-sizing:content-box;
+
+    
+}
     
 }

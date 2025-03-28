@@ -81,7 +81,7 @@ export default function Inicio() {
 
             <div className="storePrev">
                 <h1>Nuevos modelos </h1>
-                <div className="cardsPrev">
+                <section className="cardsPrev">
                     <Card
                         style={
                             { backgroundColor: "#96CAEF" }
@@ -114,7 +114,7 @@ export default function Inicio() {
                         url={shoe3}
                         price="$190.000"
                     />
-                </div>
+                </section>
 
             </div>
 
