@@ -34,7 +34,7 @@ https://www.figma.com/design/hICmthmUeB5UijrFE7Jyls/HatTrick?node-id=0-1&node-ty
 
 ## Deployment
 
-El desplegue esta contemplado en Vercel (Sugeto a modificaciones)
+El desplegue esta contemplado en Vercel (Sujeto a modificaciones)
 
 
 
@@ -47,12 +47,10 @@ Se implementara Git y Git Hub en formato privado para uso y manejo de versiones,
  **Hector Manuel Beltran Cifuentes** [https://github.com/HMBC03]
  
 
-
-
 ## Licencia
 
 **Este proyecto esta bajo la licencia:**
-Proprietary Software License: También conocida como licencia cerrada o privativa. 
+Proprietary Software License: Licencia cerrada o privativa. 
 El propietario del software para este caso **Zapatillas Hat Trick** tiene derechos exclusivos sobre el mismo y el usuario final solo puede usar el software de acuerdo con los términos de la licencia. 
 No se puede modificar el software, ni distribuirlo, ni hacer ingeniería inversa.
 Cualquier filtración o uso indebido del software tendra repercusiones legales y sanciones economicas.
