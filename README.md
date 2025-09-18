@@ -44,7 +44,7 @@ Se implementara Git y Git Hub en formato privado para uso y manejo de versiones,
 
  **Hector Manuel Beltran Cifuentes** [https://github.com/HMBC03]
  
-**Enrique Abril** [https://github.com/kiketach]
+
 
 
 ## Licencia
