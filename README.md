@@ -29,7 +29,7 @@ Acceda al diseño de figma para que este al tanto de las funcionalidades.
 
 https://www.figma.com/design/hICmthmUeB5UijrFE7Jyls/HatTrick?node-id=0-1&node-type=canvas&t=7e1ibBRrn0Q7FBCN-0
 
-<img width="812" height="436" alt="image" src="https://github.com/user-attachments/assets/d55331c3-9813-48e3-a13a-0aa23a7a8e92" />
+<img width="692" height="436" alt="image" src="https://github.com/user-attachments/assets/d55331c3-9813-48e3-a13a-0aa23a7a8e92" />
 <img width="692" height="623" alt="image" src="https://github.com/user-attachments/assets/bbc1c120-2666-4fd9-990d-831e7e486187" />
 
 ## Deployment
